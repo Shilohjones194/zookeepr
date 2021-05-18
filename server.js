@@ -15,7 +15,7 @@ function filterByQuery(query, animalsArray) {
         } else {
             personalityTraitsArray = query.personalityTraits;
         }
-        // loop through east trait in the personailtyTraits array:
+        // loop through east trait in the personalityTraits array:
         personalityTraits.forEach(trait => {
       // Check the trait against each animal in the filteredResults array.
       // Remember, it is initially a copy of the animalsArray,
